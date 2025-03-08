@@ -1,9 +1,17 @@
+/*
+    universal selctor
+    remove any default margin and padding
+    ensure with border-box that content stay withing precribed widths
+*/
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
+/*
+    Work specificly on the site name and review tab
+*/
 .site-name, .review-tab{
     font-size: 15px;
     background-color: #44230e;
@@ -12,10 +20,16 @@
     cursor: pointer;
 }
 
+/* 
+    Override the site name specifically to change back to wite font color
+*/
 .site-title{
     color: white;
 }
 
+/*
+    work on the content of the header
+*/
 header{
     background-color: black;
     color: white;
@@ -24,12 +38,20 @@ header{
     
 }
 
+/*
+    work specifically on the navigation bar
+    display flex to align horizontally
+    give space between each content with centerd alignment
+*/
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/*
+    make the profile image circular and smaller
+*/
 .profile-picture{
     width: 4em;
     height: 4em;
@@ -37,10 +59,16 @@ header nav{
     cursor: pointer;
 }
 
+/*
+    remove the style from the list items which remove the bullet points.
+*/
 ul .profile-menu-dropdown{
     list-style-type: none;
 }
 
+/*
+    style the dropdown to be see through, aligned to the top right and on top of the stacking order of containers
+*/
 .dropdown{
     display: none;
     position: absolute;
@@ -54,6 +82,7 @@ ul .profile-menu-dropdown{
     z-index: 10;
 }
 
+
 .dropdown li {
     
     padding: 10px;
@@ -63,13 +92,20 @@ ul .profile-menu-dropdown{
     
 }
 
+/*
+    When hovering on a list item, change the background color
+*/
 .dropdown li:hover {
     background-color: #44230e;
 }
 
+/*
+    make the dropdown list visible when you hovern on the profile menu
+*/
 .profile-menu-dropdown:hover .dropdown {
     display: block;
 }
+
 
 .submit-btn {
     background-color: transparent;
@@ -106,6 +142,10 @@ ul .profile-menu-dropdown{
     left: 50%;
     transform: translateX(-50%);
     /* z-index: 2; */
+}
+
+.search-bar{
+    display: none;
 }
 
 a{
