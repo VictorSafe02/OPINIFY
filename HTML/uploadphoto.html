@@ -39,18 +39,14 @@
     </header>
 
     <main>
-        <h2 class="site-name-head">Change E-mail</h2>
+        <h2 class="site-name-head">Upload Photo</h2>
         <section>
             <form action="/signup" method="post">
  
-                <p>Current Email</p>
-                <input type="email" name="email" placeholder="" class="input-field-in" required autocomplete="email"><br>
+                <input type="file" name='photo' accept="image/*" required>
                 
-                <p>New Email</p>
-                <input type="email" name="email" placeholder="" class="input-field-in" required autocomplete="email"><br>
-                <p>Confirm New Email</p>
-                <input type="email" name="email" placeholder="" class="input-field-in" required autocomplete="email"><br>
-
+                
+              
 
                 <button type="submit" class="submit-btn-sign-in">Confirm</button>
             </form>
