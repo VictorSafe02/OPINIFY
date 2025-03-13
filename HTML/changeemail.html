@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/signIn.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/signUp.css">
+</head>
+<body>
+
+    <header>
+
+        <nav>
+            <a href="../HTML/index.html" class="site-title"><h1 class="site-name">Name</h1></a>
+            <form action="/submit" method="post">
+                <!-- <input type="text" name="search" placeholder="Search..." class="search-bar"> -->
+                <button type="submit" class="submit-btn"><i class="fas fa-search"></i></button>
+            </form>
+
+            <h3 class="review-tab">Write a Review</h3>
+        
+            <ul>
+                <li class="profile-menu-dropdown">
+                    <a href="profile-menu"><img src="../Images/images.png" alt="" class="profile-picture"></a>
+                    <ul class="dropdown">
+                        <li>Profile</li>
+                        <li><a href="">Settings</a></li>
+                        <li><a href="./signIn.html">Login</a></li>
+                        <li><a href="">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </nav> 
+        
+    </header>
+
+    <main>
+        <h2 class="site-name-head">Change Password</h2>
+        <section>
+            <form action="/signup" method="post">
+ 
+                <p>Current Email</p>
+                <input type="email" name="email" placeholder="" class="input-field-in" required autocomplete="email"><br>
+                
+                <p>New Email</p>
+                <input type="email" name="email" placeholder="" class="input-field-in" required autocomplete="email"><br>
+                <p>Confirm New Email</p>
+                <input type="email" name="email" placeholder="" class="input-field-in" required autocomplete="email"><br>
+
+
+                <button type="submit" class="submit-btn-sign-in">Confirm</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nam iusto qui soluta nisi suscipit porro praesentium tenetur necessitatibus facilis, sed autem iure quisquam dolorem expedita rem itaque ut! Eum.</p>
+    </footer>
+</body>
+</html>
