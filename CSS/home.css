@@ -148,6 +148,10 @@ ul .profile-menu-dropdown{
     display: none;
 }
 
+.review-tab a{
+    color: white;
+}
+
 a{
     color: black;
     text-decoration: none;
