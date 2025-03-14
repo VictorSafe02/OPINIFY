@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/review.css">
+</head>
+<body>
+    <header>
+        <!-- navbar with search bar, dropdown and site name (victor)-->
+        <nav>
+            <a href="../HTML/index.html" class="site-title"><h1 class="site-name">Name</h1></a> <!-- link the site name to the home page (victor)-->
+
+            <form action="/submit" method="post">
+                <input type="text" name="search" placeholder="Search..." class="search-bar"> <!-- search bar for big screens only (victor)-->
+                <button type="submit" class="submit-btn"><i class="fas fa-search"></i></button>
+            </form>
+
+            <h3 class="review-tab"><a href="../HTML/writereview.html">Write a Review</a></h3>
+        
+            <ul>
+                <li class="profile-menu-dropdown">
+                    <a href="profile-menu"><img src="../Images/images.png" alt="" class="profile-picture"></a>
+                    <ul class="dropdown">
+                        <li><a href="./profile.html">Profile</a></li>
+                        <li><a href="./settings.html">Settings</a></li>
+                        <li><a href="./signIn.html">Login</a></li>
+                        <li><a href="">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+        
+    </header>
+    <main>
+        <section class="banner">
+            <img src="../Images/movie.avif" alt="" class="movie-poster">
+            <h1>The Hallway (2020)</h1>
+            <h3>Directed by Jordan Holloway</h3>
+
+            <section class="rating-section">
+                <section class="stars">★ ★ ★ ☆ ☆</section>
+                <label class="score">3.8/5</label>
+                <label class="reviews-count">Reviews 1,235</label>
+            </section>
+
+            <p class="movie-description">
+                In this Canadian horror film, two women, Naomi and Val, are trapped in a 
+                hotel hallway as a deadly airborne virus spreads, forcing them to fight 
+                for survival while confronting personal struggles.
+            </p>
+        </section>
+        <aside class="ratings-breakdown">
+            <h3>Ratings Breakdown</h3>
+            <section class="rating-row">
+                <label>5 ★</label>
+                <section class="progress-bar"><section style="width: 20%;"></section></section>
+                <label>20%</label>
+            </section>
+            <section class="rating-row">
+                <label>4 ★</label>
+                <section class="progress-bar"><section style="width: 40%;"></section></section>
+                <label>40%</label>
+            </section>
+            <section class="rating-row">
+                <label>3 ★</label>
+                <section class="progress-bar"><section style="width: 30%;"></section></section>
+                <label>30%</label>
+            </section>
+            <section class="rating-row">
+                <label>2 ★</label>
+                <section class="progress-bar"><section style="width: 5%;"></section></section>
+                <label>5%</label>
+            </section>
+            <section class="rating-row">
+                <label>1 ★</label>
+                <section class="progress-bar"><section style="width: 5%;"></section></section>
+                <label>5%</label>
+            </section>
+        </aside>
+
+
+        <section class="reviews">
+            <h2>Reviews</h2>
+            <input type="text" class="search" placeholder="🔍 Search by keyword">
+            <button class="filter-btn">Filter</button>
+
+            <section class="review-card">
+                <img src="../Images/images.png" class="user-img">
+                <section class="review-content">
+                    <h4>Aj Tracy <span>21/11/2024 - 3 hours ago</span></h4>
+                    <section class="stars">★★★★☆</section>
+                    <h5>A Haunting Descent</h5>
+                    <p>A chilling, cerebral horror film that traps both its protagonist and audience in a mind-bending nightmare.</p>
+                </section>
+            </section>
+        </section>
+
+        <section class="more-movies">
+            <h2>More like this</h2>
+            <section class="movie-list">
+                <section class="movie-item">
+                    <img src="movie.jpg" alt="Movie">
+                    <p>Movie</p>
+                </section>
+                <section class="movie-item">
+                    <img src="movie.jpg" alt="Movie">
+                    <p>Movie</p>
+                </section>
+                <section class="movie-item">
+                    <img src="movie.jpg" alt="Movie">
+                    <p>Movie</p>
+                </section>
+                <section class="movie-item">
+                    <img src="movie.jpg" alt="Movie">
+                    <p>Movie</p>
+                </section>
+            </section>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nam iusto qui soluta nisi suscipit porro praesentium tenetur necessitatibus facilis, sed autem iure quisquam dolorem expedita rem itaque ut! Eum.</p>
+    </footer>
+
+
+
+</body>
+</html>
