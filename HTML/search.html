@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating & Reviewing Platform</title>
+    <link rel="stylesheet" href="../CSS/search.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+</head>
+<body>
+    <header>
+        <!-- navbar with search bar, dropdown and site name (victor)-->
+        <nav>
+            <a href="../HTML/index.html" class="site-title"><h1 class="site-name">Name</h1></a> <!-- link the site name to the home page (victor)-->
+
+            <form action="/submit" method="post">
+                <input type="text" name="search" placeholder="Search..." class="search-bar"> <!-- search bar for big screens only (victor)-->
+                <button type="submit" class="submit-btn"><i class="fas fa-search"></i></button>
+            </form>
+
+            <h3 class="review-tab"><a href="../HTML/writereview.html">Write a Review</a></h3>
+        
+            <ul>
+                <li class="profile-menu-dropdown">
+                    <a href="profile-menu"><img src="../Images/images.png" alt="" class="profile-picture"></a>
+                    <ul class="dropdown">
+                        <li><a href="./profile.html">Profile</a></li>
+                        <li><a href="./settings.html">Settings</a></li>
+                        <li><a href="./signIn.html">Login</a></li>
+                        <li><a href="">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+        
+    </header>
+    <main>
+        <section class="search-section">
+            <input type="text" placeholder="Search for a book, movie or show">
+        </section>
+        <section class="filter-section">
+            <label for="category-filter">Filter by:</label>
+            <select id="category-filter" class="filter-dropdown">
+                <option value="all">All</option>
+                <option value="movies">Movies</option>
+                <option value="books">Books</option>
+                <option value="restaurants">Restaurants</option>
+                <option value="others">Others</option>
+            </select>
+        </section>
+        <section class="grid-container">
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+            <section class="grid-item"></section>
+        </section>
+        <section class="pagination">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>...</button>
+        </section>
+    </main>
+    <footer>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nam iusto qui soluta nisi suscipit porro praesentium tenetur necessitatibus facilis, sed autem iure quisquam dolorem expedita rem itaque ut! Eum.</p>
+    </footer>
+</body>
+</html>
