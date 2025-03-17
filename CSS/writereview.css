@@ -1,3 +1,4 @@
+/* General body styling: centers content, sets background color, and uses flexbox for alignment */
 body {
     font-family: Arial, sans-serif;
     background-color: bisque;
@@ -8,6 +9,8 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+/* Review container: centered box with padding, rounded corners, and shadow effect */
 .review-container {
     background: grey;
     padding: 3em;
@@ -17,11 +20,15 @@ body {
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
+
+/* Heading styling: white text with spacing */
 h2 {
     margin-bottom: 15px;
     color: white;
     font-size: 24px;
 }
+
+/* Textarea for reviews: centered text, dark background, and rounded borders */
 textarea {
     width: 100%;
     height: 120px;
@@ -34,34 +41,48 @@ textarea {
     color: white;
     text-align: center;
 }
+
+/* Rating section: spacing for stars */
 .rating {
     margin: 15px 0;
 }
+
+/* Star rating icons: white by default, interactive hover effect */
 .star {
     font-size: 30px;
     cursor: pointer;
     color: white;
     transition: transform 0.2s, color 0.3s;
 }
+
+/* Star hover effect and active state: turns gold and slightly enlarges */
 .star:hover,
 .star.active {
     color: gold;
     transform: scale(1.2);
 }
+
+/* Upload section: styled box with black background */
 .upload-section {
     margin-top: 10px;
     background: black;
     padding: 15px;
     border-radius: 10px;
 }
+
+/* Upload section text: white with slight spacing */
 .upload-text {
     color: white;
     font-size: 16px;
     margin-bottom: 10px;
 }
+
+/* File input styling */
 #image-upload {
     color: white;
 }
+
+/* Button styling: black background, white text, hover effects */
 button {
     background-color: black;
     color: white;
@@ -74,11 +95,14 @@ button {
     width: 100%;
     transition: background 0.3s, transform 0.2s;
 }
+
+/* Button hover effect: changes background color and moves slightly */
 button:hover {
     background-color: darkgray;
     transform: translateY(-2px);
 }
 
-footer{
+/* Footer section: full-width footer */
+footer {
    width: 100%;
 }
