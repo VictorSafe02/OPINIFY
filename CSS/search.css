@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,8 +9,7 @@ body {
     align-items: center;
 }
 
-    
-
+/* Profile icon styling: creates a small circular icon */
 .profile-icon {
     width: 30px;
     height: 30px;
@@ -17,10 +17,12 @@ body {
     border-radius: 50%;
 }
 
+/* Search section styling: centers input and adds margin */
 .search-section {
     margin: 20px 0;
 }
 
+/* Search input field: rounded design, centered text */
 .search-section input {
     padding: 10px;
     width: 300px;
@@ -30,10 +32,12 @@ body {
     font-size: 16px;
 }
 
+/* Filter section styling: adds space below filters */
 .filter-section {
     margin-bottom: 20px;
 }
 
+/* Filter button styling: rounded design, grey background */
 .filter-button {
     padding: 10px 20px;
     border: none;
@@ -43,6 +47,7 @@ body {
     cursor: pointer;
 }
 
+/* Grid container: uses CSS grid with 3 columns and spacing */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -51,6 +56,7 @@ body {
     max-width: 600px;
 }
 
+/* Grid items: small square blocks with rounded corners */
 .grid-item {
     width: 100px;
     height: 100px;
@@ -58,10 +64,12 @@ body {
     border-radius: 10px;
 }
 
+/* Pagination section: adds spacing */
 .pagination {
     margin: 20px 0;
 }
 
+/* Pagination buttons: small clickable buttons with borders */
 .pagination button {
     margin: 0 5px;
     padding: 5px 10px;
