@@ -84,8 +84,13 @@
         <section class="reviews">
             <h2>Reviews</h2>
             <input type="text" class="search" placeholder="🔍 Search by keyword">
-            <button class="filter-btn">Filter</button>
-
+            <section class="sort-dropdown">
+                <label for="sort-select">Sort:</label>
+                <select id="sort-select">
+                    <option value="high-to-low">High to Low</option>
+                    <option value="low-to-high">Low to High</option>
+                </select>
+            </section>
             <section class="review-card">
                 <img src="../Images/movie.avif" class="user-img" alt="User Avatar">
                 <section class="review-content">

@@ -45,7 +45,7 @@
     margin-bottom: 20px;
 }
 
-/* Ratings Breakdown */
+
 .ratings-breakdown {
     background-color: #2d1c1c;
     padding: 20px;
@@ -81,7 +81,7 @@
     border-radius: 5px;
 }
 
-/* Reviews Section */
+
 .reviews {
     padding: 20px;
 }
@@ -154,7 +154,7 @@
     color: white;
 }
 
-/* More Movies Section */
+
 .more-movies {
     padding: 20px;
 }
@@ -185,3 +185,52 @@
     font-size: 14px;
 }
 
+.sort-dropdown {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sort-dropdown label {
+    margin-right: 10px;
+    color: white; 
+}
+
+#sort-select {
+    padding: 8px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sort-select:focus {
+    outline: none;
+    border-color: #8a5b5b; 
+}
+
+@media screen and (min-width: 1024px) {
+    .movie-poster{
+        height: 35em;
+    }
+
+    .banner{
+        margin: 0 5em;
+    }
+    .ratings-breakdown{
+       margin-left: 5em;
+       margin-right: 5em;
+    }
+
+    .reviews{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .more-movies{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    
+}
