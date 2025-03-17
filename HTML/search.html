@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rating & Reviewing Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../CSS/search.css">
     <link rel="stylesheet" href="../CSS/home.css">
 </head>
@@ -13,10 +14,7 @@
         <nav>
             <a href="../HTML/index.html" class="site-title"><h1 class="site-name">Name</h1></a> <!-- link the site name to the home page (victor)-->
 
-            <form action="/submit" method="post">
-                <input type="text" name="search" placeholder="Search..." class="search-bar"> <!-- search bar for big screens only (victor)-->
-                <button type="submit" class="submit-btn"><i class="fas fa-search"></i></button>
-            </form>
+            <a href="./search.html"><button type="submit" class="submit-btn" id="searchview"><i class="fas fa-search"></i></button></a>
 
             <h3 class="review-tab"><a href="../HTML/writereview.html">Write a Review</a></h3>
         
@@ -36,41 +34,44 @@
         
     </header>
     <main>
-        <section class="search-section">
-            <input type="text" placeholder="Search for a book, movie or show">
+        
+        <section class="search-container">
+            <input type="text" class="search-input" placeholder="Search for a book, movie or show">
         </section>
-        <section class="filter-section">
-            <label for="category-filter">Filter by:</label>
-            <select id="category-filter" class="filter-dropdown">
-                <option value="all">All</option>
-                <option value="movies">Movies</option>
+
+        <section class="filter-container">
+            <select class="filter-dropdown">
+                <option value="movies">All</option>
                 <option value="books">Books</option>
-                <option value="restaurants">Restaurants</option>
-                <option value="others">Others</option>
+                <option value="tvshows">TV Shows</option>
+                <option value="movies">Movies</option>
             </select>
         </section>
-        <section class="grid-container">
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
-            <section class="grid-item"></section>
+
+        <section class="results-grid">
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
+            <section class="result-item"><a href="review.html"></a></section>
         </section>
-        <section class="pagination">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
-            <button>...</button>
-        </section>
+
+        <nav class="pagination">
+            <button class="page">←</button>
+            <button class="page">1</button>
+            <button class="page">2</button>
+            <button class="page">3</button>
+            <button class="page">4</button>
+            <button class="page">5</button>
+            <button class="page">→</button>
+        </nav>
     </main>
     <footer>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nam iusto qui soluta nisi suscipit porro praesentium tenetur necessitatibus facilis, sed autem iure quisquam dolorem expedita rem itaque ut! Eum.</p>

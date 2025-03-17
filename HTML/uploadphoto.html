@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../CSS/signIn.css">
     <link rel="stylesheet" href="../CSS/home.css">
-    <link rel="stylesheet" href="../CSS/signUp.css">
+
     <link rel="stylesheet" href="../CSS/writereview.css">
 
 </head>
@@ -17,10 +17,7 @@
 
         <nav>
             <a href="../HTML/index.html" class="site-title"><h1 class="site-name">Name</h1></a>
-            <form action="/submit" method="post">
-                <!-- <input type="text" name="search" placeholder="Search..." class="search-bar"> -->
-                <button type="submit" class="submit-btn"><i class="fas fa-search"></i></button>
-            </form>
+            <a href="./search.html"><button type="submit" class="submit-btn" id="searchview"><i class="fas fa-search"></i></button></a>
 
             <h3 class="review-tab"><a href="../HTML/writereview.html">Write a Review</a></h3>
         
@@ -41,13 +38,19 @@
     </header>
 
     <main>
-        <h2 class="site-name-head">Upload Photo</h2>
-      
+        <section class="upload-container">
+            <h2 class="upload-title">Upload Photo</h2>
 
+            <section class="upload-section">
+                <p class="upload-text">Select your photo:</p>
+                <input type="file" name="photo" id="image-upload" accept="image/*" required>
+            </section>
 
-        <section class="upload-section">
-            <p class="upload-text">Upload your photo:</p>
-            <input type="file" name="photo" id="image-upload" accept="image/*" required>
+            <section class="preview-section">
+                <img id="image-preview" src="#" alt="Preview" style="display: none;">
+            </section>
+
+            <a href="./settings.html"><button id="upload-button" class="upload-button">Upload</button></a>
         </section>
         
 

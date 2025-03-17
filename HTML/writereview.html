@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Write a Review</title>
     <link rel="stylesheet" href="../CSS/writereview.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../CSS/home.css">
 </head>
 <body>
@@ -13,10 +14,7 @@
         <nav>
             <a href="../HTML/index.html" class="site-title"><h1 class="site-name">Name</h1></a> <!-- link the site name to the home page (victor)-->
 
-            <form action="/submit" method="post">
-                <input type="text" name="search" placeholder="Search..." class="search-bar"> <!-- search bar for big screens only (victor)-->
-                <button type="submit" class="submit-btn"><i class="fas fa-search"></i></button>
-            </form>
+            <a href="./search.html"><button type="submit" class="submit-btn" id="searchview"><i class="fas fa-search"></i></button></a>
 
             <h3 class="review-tab"><a href="../HTML/writereview.html">Write a Review</a></h3>
         
@@ -41,11 +39,11 @@
         <textarea id="review-text" placeholder="Write your review here..." required></textarea>
         
         <section class="rating">
-            <span class="star" data-value="1">★</span>
-            <span class="star" data-value="2">★</span>
-            <span class="star" data-value="3">★</span>
-            <span class="star" data-value="4">★</span>
-            <span class="star" data-value="5">★</span>
+            <section class="star" data-value="1">★</section>
+            <section class="star" data-value="2">★</section>
+            <section class="star" data-value="3">★</section>
+            <section class="star" data-value="4">★</section>
+            <section class="star" data-value="5">★</section>
         </section>
         
         <section class="upload-section">
@@ -53,7 +51,7 @@
             <input type="file" id="image-upload" accept="image/*" required>
         </section>
         
-        <button id="submitreview">Submit Review</button>
+        <a href="../HTML/review.html"><button id="submitreview">Submit Review</button></a>
     </section>
 
     <footer>
@@ -61,5 +59,7 @@
     </footer>
 
     <script src="../JavaScript/general.js"></script>
+
+  
 </body>
 </html>

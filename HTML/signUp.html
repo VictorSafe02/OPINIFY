@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../CSS/signIn.css">
     <link rel="stylesheet" href="../CSS/home.css">
-    <link rel="stylesheet" href="../CSS/signUp.css">
 </head>
 <body>
 
@@ -15,10 +14,7 @@
 
         <nav>
             <a href="../HTML/index.html" class="site-title"><h1 class="site-name">Name</h1></a>
-            <form action="/submit" method="post">
-                <!-- <input type="text" name="search" placeholder="Search..." class="search-bar"> -->
-                <button type="submit" class="submit-btn"><i class="fas fa-search"></i></button>
-            </form>
+            <a href="./search.html"><button type="submit" class="submit-btn" id="searchview"><i class="fas fa-search"></i></button></a>
 
             <h3 class="review-tab"><a href="../HTML/writereview.html">Write a Review</a></h3>
         
@@ -51,9 +47,9 @@
                 <input type="email" name="email" placeholder="" class="input-field-in" required autocomplete="email"><br>
                 <p>Password</p>
                 <input type="password" name="password" placeholder="At least 8 characters" class="input-field-in" required autocomplete="new-password" minlength="8">
-                <p class="equal-space">Confirm Password</p>
+                <p class="equal-space" style="margin-top: 1.5em;">Confirm Password</p>
                 <input type="password" name="password" placeholder="At least 8 characters" class="input-field-in" required minlength="8">
-                <button type="submit" class="submit-btn-sign-in">Sign Up</button>
+                <a href="./index.html"><button type="submit" class="submit-btn-sign-in">Sign Up</button></a>
                 <a href="../HTML/signIn.html"><p>Already have an account? Sign In</p></a>
             </form>
         </section>
