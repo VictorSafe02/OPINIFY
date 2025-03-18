@@ -1,51 +1,51 @@
 main {
-    background-color: bisque;
-    padding: 3em;
-    text-align: center;
-    max-width: 600px;
-    margin: 5em auto;
-    border-radius: 10px;
+    background-color: bisque; /* sets main background bisque */
+    padding: 3em; /* sets padding 3em */
+    text-align: center; /* it aligns text to centre */
+    max-width: 600px; /* sets max width 600 px */
+    margin: 5em auto; /* sets margin 5em */
+    border-radius: 10px; /* rounds borders 10 px */
 }
 
 .site-name-head {
-    background-color: grey;
-    color: black;
-    padding: 1em;
-    border-radius: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 2em;
+    background-color: grey; /* sets main background grey */
+    color: black; /* sets text color as black */
+    padding: 1em; /* sets padding 1em */
+    border-radius: 10px; /* rounds borders 10 px */
+    font-size: 24px; /* sets text size 24px */
+    font-weight: bold; /* sets text as bold*/
+    margin-bottom: 2em; /* adds 2em spaceto bottom */
 }
 
 .settings-head {
-    margin-bottom: 2em;
-    font-size: 24px;
-    font-weight: bold;
+    margin-bottom: 2em; /* adds 2em spaceto bottom */
+    font-size: 24px;  /* sets text size 24px */
+    font-weight: bold; /* sets text as bold*/
 }
 
 section {
-    background-color: grey;
-    text-align: center;
-    padding: 2em;
-    border-radius: 10px;
+    background-color: grey;  /* sets section background grey */
+    text-align: center; /* it aligns text to centre */
+    padding: 2em;  /* sets padding 2em */
+    border-radius: 10px; /* rounds borders 10 px */
 }
 
 .account-settings-form {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+    display: flex; /*display flex */
+    flex-direction: column; /* sets flex direction as column */
+    gap: 5px; /* sets gap as 5px */
 }
 
 
 
 
 .settings-btn {
-    background-color: black;
-    color: white;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 3em;
+    background-color: black;  /* sets section background black */
+    color: white; /* sets text color as white */
+    border: none;  /* removes default border */
+    font-size: 20px; /* sets text size 20px */
+    cursor: pointer;  /* Show pointer cursor on hover */
+    padding: 10px; /* sets padding 10em */
+    border-radius: 10px; /* rounds borders 10 px */
+    margin-top: 3em; /* adds 2em space to top */
 }
