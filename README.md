@@ -32,16 +32,19 @@ The repository consists of the following files and directories:
 - write_review.html - Write Review Page (Ajay Atkire)
 - search.html - Search Page (Ajay Atkire)
 - review.html - Review Page (Ajay Atkire)
+- cover page - details who took part in the project (Ajay Atkire)
 - settings.html - Settings Page (Savas Avsar)
 - upload.html - Upload Page (Savas Avsar)
 - changeemail.html Change Email Page (Savas Avsar)
 - changepasword.html Change Passpord (Savas Avsar)
+- javascript - file to add responsiveness to the page (Victor Arowosafe, Ajay Atkire)
 - styles/ - CSS files for styling (All Members contributed to styling their respective pages)
+- website demo video - video explains what the site is and how to navigate it (All Members contributed)
 
 Installation & Setup
 To run the project locally:
 -- Clone the repository (URL): https://victorsafe02.github.io/SEWA-project/
--- Open the project folder in a code editor. 
+-- Open the project folder in a code editor.
 -- Open any `index.html` file in a browser to view the respective page.
 
 Future Enhancements
