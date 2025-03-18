@@ -43,7 +43,7 @@ The repository consists of the following files and directories:
 
 Installation & Setup
 To run the project locally:
--- Clone the repository (URL): https://victorsafe02.github.io/SEWA-project/
+-- Clone the repository (URL): https://victorsafe02.github.io/OPINIFY/
 -- Open the project folder in a code editor.
 -- Open any `index.html` file in a browser to view the respective page.
 
