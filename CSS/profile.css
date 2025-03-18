@@ -1,169 +1,190 @@
-
-
+/* General body styling */
 body {
-    font-family: sans-serif; 
-    background-color: #1a0d0d;
-    color: white;
-    margin: 0;
-    padding: 0;
+    font-family: sans-serif;  /* Set font to sans-serif */
+    background-color: #1a0d0d;  /* Dark background for a stylish look */
+    color: white;  /* White text for contrast */
+    margin: 0;  /* Remove default margin */
+    padding: 0;  /* Remove default padding */
 }
 
+/* Main content container */
 main {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
+    max-width: 1200px;  /* Limit the maximum width */
+    margin: auto;  /* Center the content */
+    padding: 20px;  /* Add spacing around content */
 }
 
+/* Profile banner section */
 .profile-banner {
-    background-color: #2d1c1c;
-    border-radius: 8px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 20px;
+    background-color: #2d1c1c;  /* Darker background for the banner */
+    border-radius: 8px;  /* Rounded corners */
+    padding: 20px;  /* Add padding */
+    display: flex;  /* Use flexbox for layout */
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: center;  /* Center items horizontally */
+    text-align: center;  /* Center text */
+    margin-bottom: 20px;  /* Space below the banner */
 }
 
+/* Profile picture styling */
 .profile-page-picture {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #333;
-    margin-bottom: 15px;
+    width: 100px;  /* Set width */
+    height: 100px;  /* Set height */
+    border-radius: 50%;  /* Make it a circle */
+    object-fit: cover;  /* Maintain aspect ratio */
+    border: 3px solid #333;  /* Add a border */
+    margin-bottom: 15px;  /* Add spacing below */
 }
 
+/* Name and email section */
 .name-email p {
-    font-size: 18px;
-    margin: 5px 0;
+    font-size: 18px;  /* Adjust font size */
+    margin: 5px 0;  /* Add spacing */
 }
 
+/* Review and follower section */
 .review-follower {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 15px;
+    display: flex;  /* Use flexbox */
+    justify-content: space-around;  /* Space out items evenly */
+    width: 100%;  /* Full width */
+    margin-top: 15px;  /* Space above */
 }
 
+/* Individual review and follower containers */
 .review, .follower {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex;  /* Use flexbox */
+    flex-direction: column;  /* Stack elements */
+    align-items: center;  /* Center items */
 }
 
+/* Text inside review and follower section */
 .review p, .follower p {
-    margin: 5px 0;
+    margin: 5px 0;  /* Add spacing */
 }
 
+/* Review grid container */
 .grid-container-reviews {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+    display: grid;  /* Use CSS grid */
+    grid-template-columns: 1fr;  /* Single column layout by default */
+    gap: 20px;  /* Add spacing */
 }
 
+/* Recent reviews section */
 .recent {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    display: flex;  /* Use flexbox */
+    flex-direction: column;  /* Stack elements */
+    gap: 20px;  /* Space between elements */
 }
 
+/* Individual recent review card */
 .recent-review {
-    background-color: #333;
-    border-radius: 8px;
-    padding: 15px;
+    background-color: #333;  /* Dark gray background */
+    border-radius: 8px;  /* Rounded corners */
+    padding: 15px;  /* Add padding */
 }
 
+/* Recent review header section */
 .recent-review div {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    color: #ccc;
-    margin-bottom: 10px;
+    display: flex;  /* Use flexbox */
+    justify-content: space-between;  /* Space elements apart */
+    font-size: 14px;  /* Adjust font size */
+    color: #ccc;  /* Light gray text */
+    margin-bottom: 10px;  /* Add spacing */
 }
 
+/* Recent review title */
 .recent-review h4 {
-    margin-bottom: 10px;
+    margin-bottom: 10px;  /* Add spacing */
 }
 
+/* Recent review text */
 .recent-review p {
-    line-height: 1.6;
+    line-height: 1.6;  /* Improve readability */
 }
 
+/* Grid item with specific styling */
 .grid-item.one-one {
-    text-align: left;
-    font-size: 18px;
-    margin-bottom: 10px;
+    text-align: left;  /* Align text to the left */
+    font-size: 18px;  /* Set font size */
+    margin-bottom: 10px;  /* Add spacing */
 }
 
+/* Horizontal scroll container */
 .hori {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-    margin-bottom: 20px;
+    display: flex;  /* Use flexbox */
+    overflow-x: auto;  /* Enable horizontal scrolling */
+    gap: 10px;  /* Add spacing between items */
+    margin-bottom: 20px;  /* Add spacing below */
 }
 
+/* Grid item styling */
 .grid-item {
-    background-color: #333;
-    border-radius: 8px;
-    padding: 10px;
-    text-align: center;
+    background-color: #333;  /* Dark gray background */
+    border-radius: 8px;  /* Rounded corners */
+    padding: 10px;  /* Add padding */
+    text-align: center;  /* Center content */
 }
 
+/* Images inside grid items */
 .grid-item img {
-    width: 120px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 5px;
+    width: 120px;  /* Set width */
+    height: 180px;  /* Set height */
+    object-fit: cover;  /* Maintain aspect ratio */
+    border-radius: 8px;  /* Rounded corners */
+    margin-bottom: 5px;  /* Add spacing below */
 }
 
+/* Follower list section */
 .follower-list {
-    background-color: #2d1c1c;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
+    background-color: #2d1c1c;  /* Dark background */
+    border-radius: 8px;  /* Rounded corners */
+    padding: 20px;  /* Add padding */
+    text-align: center;  /* Center text */
 }
 
+/* Follower list title */
 .follower-list h2 {
-    margin-bottom: 15px;
+    margin-bottom: 15px;  /* Add spacing */
 }
 
+/* Follower list container */
 .follower-list ul {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    align-items: center;
-    list-style: none;
-    padding: 0;
+    display: flex;  /* Use flexbox */
+    flex-direction: column;  /* Stack items */
+    gap: 1em;  /* Add spacing between items */
+    align-items: center;  /* Center items */
+    list-style: none;  /* Remove default bullet points */
+    padding: 0;  /* Remove padding */
 }
 
+/* Individual follower list items */
 .follower-list li {
-    margin-bottom: 10px;
+    margin-bottom: 10px;  /* Add spacing */
 }
 
+/* Links inside the follower list */
 .follower-list li a {
-    display: flex;
-    align-items: center;
-    
-    text-decoration: none;
-    color: white;
+    display: flex;  /* Use flexbox */
+    align-items: center;  /* Align items */
+    text-decoration: none;  /* Remove underline */
+    color: white;  /* Set text color */
 }
 
+/* Profile images inside the follower list */
 .follower-list li img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 120px;  /* Set width */
+    height: 120px;  /* Set height */
+    border-radius: 50%;  /* Make it a circle */
+    object-fit: cover;  /* Maintain aspect ratio */
 }
 
-
+/* Responsive design for larger screens */
 @media (min-width: 768px) {
     main {
-        padding: 30px;
+        padding: 30px;  /* Increase padding */
     }
 
     .grid-container-reviews {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;  /* Use two-column layout */
     }
 }
