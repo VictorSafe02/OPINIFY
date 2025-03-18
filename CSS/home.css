@@ -4,37 +4,38 @@
     ensure with border-box that content stay withing precribed widths
 */
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
+    margin: 0; /* sets margin as 0 */
+    padding: 0;/* sets padding as 0 */
+    box-sizing: border-box; /* ensure with border-box  stay withing precribed widths*/
 }
 
 /*
     Work specificly on the site name and review tab
 */
 .site-name, .review-tab{
-    font-size: 15px;
-    background-color: #44230e;
-    padding: 0.5em;
-    border-radius: 1em;
-    cursor: pointer;
+    font-size: 15px; /* sets fint size  as 15px */
+    background-color: #44230e; /* sets backround color as 442230 */
+    padding: 0.5em; /* sets padding  size  as 0.5 */
+    border-radius: 1em; /* 1 em rounded corners */
+    cursor: pointer; /* curser point implementation*/
 }
 
 /* 
     Override the site name specifically to change back to wite font color
 */
 .site-title{
-    color: white;
+    color: white; /* set title white color*/
+
 }
 
 /*
     work on the content of the header
 */
 header{
-    background-color: black;
-    color: white;
-    width: 100%;
-    padding: 2em 1em;
+    background-color: black; /* sets backround color as black */
+    color: white; /* sets text color in header as white */
+    width: 100%; /* sets width */
+    padding: 2em 1em; /* sets paddings  size  2em 1em*/
     
 }
 
@@ -44,19 +45,19 @@ header{
     give space between each content with centerd alignment
 */
 header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* flex makes items to line up*/
+    justify-content: space-between; /* sets space between items */
+    align-items: center; /* align items to middle from bottom to top */
 }
 
 /*
     make the profile image circular and smaller
 */
 .profile-picture{
-    width: 4em;
-    height: 4em;
-    border-radius: 50%; 
-    cursor: pointer;
+    width: 4em; /* sets  picture widdt to 4em*/
+    height: 4em; /* sets  picture height to 4em*/
+    border-radius: 50%; /* to make circle shape the profile photo*/
+    cursor: pointer; /* to make profile photo clickable */
 }
 
 /*
@@ -70,26 +71,27 @@ ul .profile-menu-dropdown{
     style the dropdown to be see through, aligned to the top right and on top of the stacking order of containers
 */
 .dropdown{
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #444;
-    list-style-type: none;
-    padding: 8em 1em 2em 1em;
+    display: none; /* dorpdown hidden at first*/
+    position: absolute;/* with absolute we set thr dropdown float above the other content  */  
+    top: 0; /* this alligns top */
+    right: 0; /* this alligns right */
+    background-color: #444; /* sets backround colour 444 */
+    list-style-type: none; /* removes bullet points or numbers */
+    padding: 8em 1em 2em 1em; /* with padding we set spaces inside the dropdown */
     /* min-width: 200px; */
-    opacity: 0.9;
-    z-index: 10;
+    opacity: 0.9; /* sets opacity */
+    z-index: 10; /* sets stacking order */
+
 }
 
 
 .dropdown li {
     
-    padding: 10px;
-    text-align: left;
-    cursor: pointer;
-    justify-content: space-evenly;
-    
+    padding: 10px; /* sets padding as 10px */
+    text-align: left; /* alligns text to left */
+    cursor: pointer; /* to make  dropdown clickable */
+    justify-content: space-evenly; /* even spacing between items */
+
 }
 
 /*
@@ -108,128 +110,128 @@ ul .profile-menu-dropdown{
 
 
 .submit-btn {
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 5px 10px;
+    background-color: transparent; /* set backrouund as trasparent */
+    border: none; /* set button border as none  */
+    color: white; /* set button text color as white  */
+    font-size: 20px; /* set font-size 20px */
+    cursor: pointer; /* changes cursor to pointer */
+    padding: 5px 10px; /* sets padding  */
 }
 
 .submit-btn:hover {
-    background-color: #44230e;
-    border-radius: 5px;
+    background-color: #44230e; /*sets backroung color to 44230*/
+    border-radius: 5px; /* round button corner */
 }
 
 .banner-image {
-    width: 100%;
-    height: 18em;
+    width: 100%; /*sets full width 100 for banner image */
+    height: 18em; /*sets 18em height banner image */
 }
 
 .banner{
-    position: relative; 
-    align-items: center;
+    position: relative; /* position banner relative to itself*/
+    align-items: center; /* centres items  */
     /* z-index: 1; */
 }
 
 
 .banner-text {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    padding: 10px 20px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    color: white; /* sets text color to white */
+    font-size: 18px; /* sets font size to 18 px */
+    text-align: center; /* centres texy */
+    padding: 10px 20px; /* sets padding size */
+    position: absolute; /* Positions the element absolutely, allowing it to be placed relative to its nearest positioned ancestor. */
+    left: 50%; /*moves text %5o from left */
+    transform: translateX(-50%); /* Centers element horizontally, %50 leftward shift. */
     /* z-index: 2; */
 }
 
 .search-bar{
-    display: none;
+    display: none;  /* Hide the search bar */
 }
 
 .review-tab a{
-    color: white;
+    color: white; /* white link text in review-tab */
 }
 
 a{
-    color: black;
-    text-decoration: none;
+    color: black; /* black link text */
+    text-decoration: none; /* no text decoration */
 }
 
 #btone{
-    top: 0.5em;
+    top: 0.5em; /* positions btone 0.5em from top */
 }
 #bttwo{
-    top: 5em;
+    top: 5em; /* positions bttwo 5em from top */
 }
 
 .grid-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-    padding: 1em;
+    display: grid;  /* enable grid layout for the grid-container class */
+    grid-template-columns: repeat(3, 1fr); /* create  grid with 3 equal columns */
+    gap: 1em; /* setting the gap between grid items to 1  em */
+    padding: 1em; /* adds 1em padding around the grid container */
 }
 
 .one-one{
-    grid-column: span 3;
+    grid-column: span 3; /* spans 3 grid columns */
 }
 
 .grid-item img{
-    width: 85px;
-    height: 85px;
-    border-radius: 25%;
+    width: 85px; /* sets image width 85 pixels */
+    height: 85px; /* sets image height 85 pixels */
+    border-radius: 25%; /* rounds  corners 25% */
 }
 
 a .grid-item{
-    text-align: center;
-    font-size: 1.2em;
+    text-align: center; /* centres text*/
+    font-size: 1.2em; /* sets font size  1.2 em */
 }
 
 #people img{
-    border-radius: 50%;
+    border-radius: 50%; /* rounds  corners 50% */
 }
 
 .extra{
-    display: none;
+    display: none;  /* hide elements with extra class */
 }
 
 footer{
-    color: white;
-    bottom: 0;
-    height: 10em;
-    background-color: black;
+    color: white; /* white text color footer */
+    bottom: 0; /* footer fixed to bottom  */
+    height: 10em; /* footer height 10em  */
+    background-color: black; /* footer color black  */
 }
 
 
 @media screen and (min-width: 1024px) {
     .grid-container {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        display: grid; /* displays the grid */
+        grid-template-columns: repeat(6, 1fr); /* 6 equel colomns */
     }
     .one-one{
-        grid-column: span 6;
+        grid-column: span 6; /* spans 6  colomns */
     }
     .extra {
-        display: block;
+        display: block; /* shows extra element */
     }
 
     .grid-item img {
-        width: 150px;
-        height: 150px;
+        width: 150px; /* sets 150px width */
+        height: 150px; /* sets 150px height */
     }
 }
 
 
 @media screen and (max-width: 1024px){
     .grid-item img {
-        width: 100%; 
-        height: auto;
-        border-radius: 10px;
+        width: 100%;  /* sets width %100 */
+        height: auto; /* maintain image aspect ratio */
+        border-radius: 10px; /* rounds  corners 10px */
     }
 
     #people img{
-        height: 150px;
+        height: 150px; /* Fixed height for  images. */
         
     }
 }
