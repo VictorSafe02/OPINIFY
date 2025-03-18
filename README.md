@@ -34,6 +34,8 @@ The repository consists of the following files and directories:
 - review.html - Review Page (Ajay Atkire)
 - settings.html - Settings Page (Savas Avsar)
 - upload.html - Upload Page (Savas Avsar)
+- changeemail.html Change Email Page (Savas Avsar)
+- changepasword.html Change Passpord (Savas Avsar)
 - styles/ - CSS files for styling (All Members contributed to styling their respective pages)
 
 Installation & Setup
