@@ -1,236 +1,265 @@
-
+/* Styles the movie poster */
 .movie-poster {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    width: 100%; /* Makes the poster responsive to container width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Rounds the corners */
 }
 
+/* Styles the banner section */
 .banner {
-    text-align: center;
-    padding: 20px;
+    text-align: center; /* Centers text */
+    padding: 20px; /* Adds space around the content */
 }
 
+/* Styles the main heading in the banner */
 .banner h1 {
-    font-size: 24px;
-    margin-bottom: 5px;
+    font-size: 24px; /* Sets font size */
+    margin-bottom: 5px; /* Adds space below */
 }
 
+/* Styles the subheading in the banner */
 .banner h3 {
-    font-size: 16px;
-    font-weight: normal;
-    color: #ccc;
-    margin-bottom: 15px;
+    font-size: 16px; /* Sets font size */
+    font-weight: normal; /* Normal font weight */
+    color: #ccc; /* Sets a light gray color */
+    margin-bottom: 15px; /* Adds spacing below */
 }
 
+/* Styles the rating section */
 .rating-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    display: flex; /* Uses flexbox for layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    margin-bottom: 20px; /* Adds spacing below */
 }
 
+/* Styles the star ratings */
 .stars {
-    font-size: 20px;
-    color: gold;
+    font-size: 20px; /* Sets star size */
+    color: gold; /* Makes the stars gold */
 }
 
+/* Styles the score and reviews count */
 .score, .reviews-count {
-    margin: 0 10px;
-    font-size: 14px;
+    margin: 0 10px; /* Adds horizontal spacing */
+    font-size: 14px; /* Sets font size */
 }
 
+/* Styles the movie description */
 .movie-description {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 16px; /* Sets font size */
+    line-height: 1.6; /* Increases line spacing for readability */
+    margin-bottom: 20px; /* Adds spacing below */
 }
 
-
+/* Styles the ratings breakdown section */
 .ratings-breakdown {
-    background-color: #2d1c1c;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    background-color: #2d1c1c; /* Dark background */
+    padding: 20px; /* Adds padding inside */
+    border-radius: 10px; /* Rounds corners */
+    margin-bottom: 20px; /* Adds spacing below */
 }
 
+/* Styles the heading inside the ratings breakdown */
 .ratings-breakdown h3 {
-    text-align: center;
-    margin-bottom: 15px;
+    text-align: center; /* Centers text */
+    margin-bottom: 15px; /* Adds spacing below */
 }
 
+/* Styles each row in the ratings breakdown */
 .rating-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    display: flex; /* Uses flexbox */
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Spaces items apart */
+    margin-bottom: 10px; /* Adds spacing below */
 }
 
+/* Styles the progress bar */
 .progress-bar {
-    flex-grow: 1;
-    height: 8px;
-    background-color: #444;
-    border-radius: 5px;
-    margin: 0 10px;
-    position: relative;
-    overflow: hidden;
+    flex-grow: 1; /* Allows it to expand */
+    height: 8px; /* Sets height */
+    background-color: #444; /* Dark background */
+    border-radius: 5px; /* Rounds corners */
+    margin: 0 10px; /* Adds horizontal spacing */
+    position: relative; /* Sets relative positioning */
+    overflow: hidden; /* Hides overflow content */
 }
 
+/* Styles the inner section of the progress bar */
 .progress-bar section {
-    height: 100%;
-    background-color: gold;
-    border-radius: 5px;
+    height: 100%; /* Fills the bar */
+    background-color: gold; /* Makes the bar gold */
+    border-radius: 5px; /* Rounds corners */
 }
 
-
+/* Styles the reviews section */
 .reviews {
-    padding: 20px;
+    padding: 20px; /* Adds padding */
 }
 
+/* Styles the reviews heading */
 .reviews h2 {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Adds spacing below */
 }
 
-
+/* Styles the search input field */
 .reviews .search {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #555;
-    background-color: #333;
-    color: white;
-    border-radius: 5px;
+    width: 100%; /* Makes it full width */
+    padding: 10px; /* Adds padding */
+    margin-bottom: 10px; /* Adds spacing below */
+    border: 1px solid #555; /* Dark border */
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    border-radius: 5px; /* Rounds corners */
 }
 
+/* Styles the filter button */
 .reviews .filter-btn {
-    padding: 10px 15px;
-    background-color: #8a5b5b;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 10px 15px; /* Adds padding */
+    background-color: #8a5b5b; /* Sets button color */
+    color: white; /* White text */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounds corners */
+    cursor: pointer; /* Changes cursor on hover */
 }
 
+/* Styles each review card */
 .review-card {
-    display: flex;
-    background-color: #2d1c1c;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    display: flex; /* Uses flexbox */
+    background-color: #2d1c1c; /* Dark background */
+    padding: 15px; /* Adds padding */
+    border-radius: 8px; /* Rounds corners */
+    margin-bottom: 15px; /* Adds spacing below */
 }
 
+/* Styles the user image inside the review card */
 .review-card .user-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
+    width: 50px; /* Sets width */
+    height: 50px; /* Sets height */
+    border-radius: 50%; /* Makes it circular */
+    margin-right: 15px; /* Adds spacing */
 }
 
+/* Styles the review content */
 .review-card .review-content h4 {
-    font-size: 16px;
-    margin-bottom: 5px;
-    color: white;
+    font-size: 16px; /* Sets font size */
+    margin-bottom: 5px; /* Adds spacing */
+    color: white; /* White text */
 }
 
+/* Styles the reviewer's name span */
 .review-card .review-content h4 span {
-    font-size: 12px;
-    color: #ccc;
+    font-size: 12px; /* Smaller font size */
+    color: #ccc; /* Light gray color */
 }
 
+/* Styles the stars in the review */
 .review-card .review-content .stars {
-    font-size: 14px;
-    margin-bottom: 5px;
+    font-size: 14px; /* Sets font size */
+    margin-bottom: 5px; /* Adds spacing */
 }
 
-
+/* Styles the review title */
 .review-card .review-content h5 {
-    font-size: 15px;
-    margin-bottom: 5px;
-    color: white;
+    font-size: 15px; /* Sets font size */
+    margin-bottom: 5px; /* Adds spacing */
+    color: white; /* White text */
 }
 
+/* Styles the review text */
 .review-card .review-content p {
-    font-size: 14px;
-    line-height: 1.4;
-    color: white;
+    font-size: 14px; /* Sets font size */
+    line-height: 1.4; /* Adjusts line spacing */
+    color: white; /* White text */
 }
 
-
+/* Styles the more movies section */
 .more-movies {
-    padding: 20px;
+    padding: 20px; /* Adds padding */
 }
 
+/* Styles the heading in the more movies section */
 .more-movies h2 {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Adds spacing */
 }
 
+/* Styles the movie list */
 .movie-list {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
+    display: flex; /* Uses flexbox */
+    overflow-x: auto; /* Enables horizontal scrolling */
+    gap: 10px; /* Adds space between items */
 }
 
+/* Styles each movie item */
 .movie-item {
-    text-align: center;
+    text-align: center; /* Centers text */
 }
 
+/* Styles the movie images */
 .movie-item img {
-    width: 120px;
-    height: 180px;
-    border-radius: 8px;
-    object-fit: cover;
-    margin-bottom: 5px;
+    width: 120px; /* Sets width */
+    height: 180px; /* Sets height */
+    border-radius: 8px; /* Rounds corners */
+    object-fit: cover; /* Maintains aspect ratio and covers area */
+    margin-bottom: 5px; /* Adds spacing */
 }
 
+/* Styles the movie title text */
 .movie-item p {
-    font-size: 14px;
+    font-size: 14px; /* Sets font size */
 }
 
+/* Styles the sort dropdown container */
 .sort-dropdown {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+    display: flex; /* Uses flexbox */
+    align-items: center; /* Aligns items vertically */
+    margin-bottom: 10px; /* Adds spacing */
 }
 
+/* Styles the sort dropdown label */
 .sort-dropdown label {
-    margin-right: 10px;
-    color: white; 
+    margin-right: 10px; /* Adds spacing */
+    color: white; /* White text */
 }
 
+/* Styles the sort dropdown select box */
 #sort-select {
-    padding: 8px;
-    border: 1px solid #555;
-    background-color: #333;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 8px; /* Adds padding */
+    border: 1px solid #555; /* Dark border */
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    border-radius: 5px; /* Rounds corners */
+    cursor: pointer; /* Changes cursor */
 }
 
+/* Changes border color when focused */
 #sort-select:focus {
-    outline: none;
-    border-color: #8a5b5b; 
+    outline: none; /* Removes outline */
+    border-color: #8a5b5b; /* Sets focus border color */
 }
 
+/* Styles for larger screens */
 @media screen and (min-width: 1024px) {
-    .movie-poster{
-        height: 35em;
+    .movie-poster {
+        height: 35em; /* Sets a fixed height */
     }
 
-    .banner{
-        margin: 0 5em;
-    }
-    .ratings-breakdown{
-       margin-left: 5em;
-       margin-right: 5em;
+    .banner {
+        margin: 0 5em; /* Adds horizontal margins */
     }
 
-    .reviews{
-        margin-left: 5em;
-        margin-right: 5em;
+    .ratings-breakdown {
+        margin-left: 5em; /* Adds margin */
+        margin-right: 5em; /* Adds margin */
     }
 
-    .more-movies{
-        margin-left: 5em;
-        margin-right: 5em;
+    .reviews {
+        margin-left: 5em; /* Adds margin */
+        margin-right: 5em; /* Adds margin */
     }
-    
+
+    .more-movies {
+        margin-left: 5em; /* Adds margin */
+        margin-right: 5em; /* Adds margin */
+    }
 }
