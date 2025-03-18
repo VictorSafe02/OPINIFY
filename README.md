@@ -28,12 +28,12 @@ The repository consists of the following files and directories:
 - index.html - Home Page (Victor Arowosafe)
 - login.html - Login Page (Victor Arowosafe)
 - signup.html - Sign-Up Page (Victor Arowosafe)
+- profile.html - Profile Page (Victor Arowosafe)
 - write_review.html - Write Review Page (Ajay Atkire)
 - search.html - Search Page (Ajay Atkire)
 - review.html - Review Page (Ajay Atkire)
 - settings.html - Settings Page (Savas Avsar)
 - upload.html - Upload Page (Savas Avsar)
-- profile.html - Profile Page (Victor Arowosafe)
 - styles/ - CSS files for styling (All Members contributed to styling their respective pages)
 
 Installation & Setup
