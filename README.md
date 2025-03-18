@@ -38,10 +38,9 @@ The repository consists of the following files and directories:
 
 Installation & Setup
 To run the project locally:
-Clone the repository:
-Or URL 
-3. Open the project folder in a code editor. 
-4. Open any `index.html` file in a browser to view the respective page.
+-- Clone the repository (URL): https://victorsafe02.github.io/SEWA-project/
+-- Open the project folder in a code editor. 
+-- Open any `index.html` file in a browser to view the respective page.
 
 Future Enhancements
 
