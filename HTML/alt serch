@@ -1,0 +1,41 @@
+<!-- search.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="../CSS/search.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+</head>
+<body>
+<header>
+    <!-- Navbar stays the same -->
+    <!-- ... your navbar code will be here ... -->
+</header>
+
+<main>
+    <section class="search-container">
+        <input type="text" class="search-input" placeholder="Search for a book, movie or show">
+    </section>
+
+    <section class="results-grid-two-columns">
+        <!-- Left Column -->
+        <section class="left-column">
+            <h2>Videos & Series</h2>
+            <!-- Video results from PHP will be displayed here -->
+        </section>
+
+        <!-- Right Column -->
+        <section class="right-column">
+            <h2>Books</h2>
+            <!-- Book results from PHP will be displayed here -->
+        </section>
+    </section>
+</main>
+
+<footer>
+    <!-- Footer stays the same -->
+</footer>
+</body>
+</html>
